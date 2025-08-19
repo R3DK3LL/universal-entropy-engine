@@ -1,6 +1,6 @@
-# Non-Repeating ASCII Art Generator
+# Universal Entropy Engine
 
-**Mathematical art that never repeats - guaranteed.**
+**Universal entropy-driven pattern engine generating mathematically unique visual sequences.**
 
 Every execution creates ASCII art patterns that are mathematically unique and will never occur again.
 
@@ -75,9 +75,9 @@ pip install numpy requests
 ## File Structure
 
 ```
-non-repeating-ascii-art/
-├── wrapper.py         # Secure interface to mathematical engine
-├── ascii_art.py       # Simple command-line interface
+universal-entropy-engine/
+├── wrapper.py         # Secure interface to computational engine
+├── ascii_art.py       # Command-line interface for pattern generation
 └── README.md          # This file
 ```
 
