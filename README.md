@@ -23,25 +23,21 @@ python ascii_art.py
 
 ## Usage Options
 
-### Basic Generation
-```bash
-python ascii_art.py
-```
+## Live Evolution Modes
 
-### Multiple Patterns
+### Watch Patterns Evolve in Real-Time
 ```bash
-python ascii_art.py multi
-```
+# Watch infinite evolution (press Ctrl+C to stop)
+python ascii_art.py live
 
-### Save to Files
-```bash
-python ascii_art.py save
-```
+# Watch exactly 50 generations
+python ascii_art.py live 50
 
-### Interactive Mode
-```bash
-python engine.py
-```
+# Fast evolution (0.1 seconds per frame)  
+python ascii_art.py fast
+
+# Slow evolution (1.0 second per frame)
+python ascii_art.py slow
 
 ## How It Works
 
@@ -73,7 +69,7 @@ pip install numpy
 
 ```
 non-repeating-ascii-art/
-├── engine.py          # Core generation engine
+├── wrapper.py         # Secure interface to mathematical engine
 ├── ascii_art.py       # Simple command-line interface
 └── README.md          # This file
 ```

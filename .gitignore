@@ -43,3 +43,5 @@ ascii_art_*.txt
 # Temporary files
 temp/
 tmp/
+engine_original.py
+ascii_art_backup.py
