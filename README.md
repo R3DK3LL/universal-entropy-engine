@@ -27,17 +27,24 @@ python ascii_art.py
 
 ### Watch Patterns Evolve in Real-Time
 ```bash
-# Watch infinite evolution (press Ctrl+C to stop)
+# Watch live evolution (11 generations per day limit)
 python ascii_art.py live
 
-# Watch exactly 50 generations
-python ascii_art.py live 50
+# Watch exactly 10 generations
+python ascii_art.py live 10
 
 # Fast evolution (0.1 seconds per frame)  
 python ascii_art.py fast
 
 # Slow evolution (1.0 second per frame)
 python ascii_art.py slow
+
+### Live Evolution Features
+- **Infinite Evolution**: Patterns never die or repeat
+- **Interactive Control**: Stop anytime with Ctrl+C
+- **Variable Speed**: From 0.1s to 1.0s per frame
+- **Daily Limit**: 11 generations per day (prevents server overload)
+- **Live Statistics**: Watch cell counts and generation progress
 
 ## How It Works
 
@@ -62,7 +69,7 @@ The system combines:
 - NumPy
 
 ```bash
-pip install numpy
+pip install numpy requests
 ```
 
 ## File Structure
