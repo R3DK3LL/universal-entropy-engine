@@ -108,3 +108,4 @@ MIT License - Feel free to use and modify for your projects.
 ---
 
 *Generate infinite unique art with mathematical precision.*
+# Renamed to universal-entropy-engine
