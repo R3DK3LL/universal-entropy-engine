@@ -1,0 +1,19 @@
+{
+  "runs": [
+    {
+      "session_id": 1,
+      "type": "animation",
+      "timestamp": "2025-08-21T00:32:54.120307",
+      "metrics": {},
+      "neural_analysis": {
+        "active_ratio": 0.02390710382513661,
+        "cluster_count": 9,
+        "largest_cluster": 14,
+        "network_density": 0.02390710382513661,
+        "fragmentation": 0.2571428571428571
+      },
+      "evolution_steps": 5
+    }
+  ],
+  "total_sessions": 1
+}
