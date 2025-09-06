@@ -62,3 +62,10 @@ virtualenv/
 # Virtual environments (comprehensive patterns)
 .vscode/
 wheels/
+
+# Generated output files
+mathematical_metrics_log.txt
+pi_samples_combined.txt
+*_log.txt
+*_samples*.txt
+
