@@ -69,3 +69,10 @@ pi_samples_combined.txt
 *_log.txt
 *_samples*.txt
 
+
+# Generated output files
+mathematical_metrics_log.txt
+pi_samples_combined.txt
+*_log.txt
+*_samples*.txt
+
