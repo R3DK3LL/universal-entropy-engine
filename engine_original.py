@@ -268,7 +268,7 @@ def main():
             filename = generator.save_to_file()
             print(f"Art saved to {filename}")
         else:
-            os.system("clear" if os.name == "posix" else "cls")
+            print("\033c", end="")
             generator.display()
 
 

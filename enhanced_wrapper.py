@@ -422,7 +422,7 @@ class AsciiArtGenerator:
             print(f"Delay: {delay}s transitions | Press Ctrl+C to stop\n")
 
             for i, frame in enumerate(data.get("frames", [])):
-                os.system("clear" if os.name == "posix" else "cls")
+                print("\033c", end="")
 
                 print("Live Neural Pathway Evolution")
                 print(
@@ -600,7 +600,7 @@ def main():
         elif user_input == "slow":
             gen.animate(delay=1.0)
         else:
-            os.system("clear" if os.name == "posix" else "cls")
+            print("\033c", end="")
             gen.display()
 
 

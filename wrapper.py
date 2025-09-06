@@ -89,7 +89,7 @@ class AsciiArtGenerator:
 
             # Display frames with 4-second delays
             for i, frame in enumerate(data["frames"]):
-                os.system("clear" if os.name == "posix" else "cls")
+                print("\033c", end="")
 
                 print("Live Non-Repeating ASCII Art Evolution")
                 print(

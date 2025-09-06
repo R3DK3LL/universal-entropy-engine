@@ -717,7 +717,7 @@ class AsciiArtGenerator:
             print(f"8-bit encoding with connectivity validation | Delay: {delay}s\n")
 
             for i, frame in enumerate(data.get("frames", [])):
-                os.system("clear" if os.name == "posix" else "cls")
+                print("\033c", end="")
 
                 print("Live Enhanced Neural Pathway Evolution")
                 print(
@@ -1056,7 +1056,7 @@ def main():
         elif user_input == "slow":
             gen.animate(delay=1.0)
         else:
-            os.system("clear" if os.name == "posix" else "cls")
+            print("\033c", end="")
             gen.display()
 
 
